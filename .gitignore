@@ -1,0 +1,56 @@
+# ===== Python 运行时产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# ===== 虚拟环境（.venv 体积大，勿提交）=====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ===== PyInstaller 打包产物 =====
+# main.exe / _internal 输出在项目外，若在项目内打包同样忽略
+build/
+dist/
+*.spec
+_internal/
+*.exe
+*.manifest
+
+# ===== 测试与静态检查缓存 =====
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+
+# ===== IDE / 编辑器（PyCharm、VS Code）=====
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ===== 系统文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 本地导出 / 临时文件（examples、docs 需保留，故只忽略目录）=====
+/导出/
+/exports/
+/output/
+/临时/
+*.log
+*.tmp
+*.bak
+~$*.docx
+~$*.pdf

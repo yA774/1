@@ -1,0 +1,4 @@
+# 个人照片功能使用 Pillow，PDF 导出使用 ReportLab。
+# 不安装这两个包时，仍可使用编辑、预览、JSON 和 Word 导出；照片和 PDF 按钮会提示安装。
+Pillow>=10.0
+reportlab>=4.0

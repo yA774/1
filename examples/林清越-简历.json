@@ -1,0 +1,205 @@
+{
+  "schema": "resume-editor/prototype",
+  "version": 1,
+  "page": {
+    "paper": "A4",
+    "margin_top": 16.0,
+    "margin_right": 16.0,
+    "margin_bottom": 16.0,
+    "margin_left": 16.0,
+    "background": "#FFFFFF"
+  },
+  "theme": {
+    "font": "Microsoft YaHei UI",
+    "text_color": "#253044",
+    "muted_color": "#667085",
+    "accent": "#1D4ED8",
+    "line_color": "#D7E0EC"
+  },
+  "sections": [
+    {
+      "type": "basic",
+      "title": "基本信息",
+      "data": {
+        "name": "林清越",
+        "job": "高级产品经理 / 数据产品",
+        "phone": "138 0013 8000",
+        "email": "lin.qingyue@example.com",
+        "city": "上海",
+        "website": "github.com/qingyue",
+        "photo": ""
+      },
+      "style": {
+        "font": "",
+        "title_size": 25.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 3.0,
+        "decoration": "none",
+        "title_bold": true,
+        "show_heading": false,
+        "visible": true
+      }
+    },
+    {
+      "type": "education",
+      "title": "教育经历",
+      "data": {
+        "items": [
+          {
+            "school": "复旦大学",
+            "major": "信息管理与信息系统",
+            "degree": "本科",
+            "start": "2016.09",
+            "end": "2020.06",
+            "details": "主修课程：数据库、统计学、人机交互\nGPA 3.8/4.0，校级优秀毕业生"
+          }
+        ]
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 4.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    },
+    {
+      "type": "work",
+      "title": "工作经历",
+      "data": {
+        "items": [
+          {
+            "company": "云舟科技",
+            "position": "产品经理",
+            "start": "2022.03",
+            "end": "至今",
+            "details": "负责企业数据看板从 0 到 1 的设计与迭代，覆盖 12 个业务线、3,000+ 日活用户\n通过漏斗分析重构核心流程，关键任务完成率提升 28%\n协同设计、研发、销售团队，主导 4 次版本发布"
+          }
+        ]
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 4.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    },
+    {
+      "type": "projects",
+      "title": "项目经历",
+      "data": {
+        "items": [
+          {
+            "name": "星图数据平台",
+            "role": "项目负责人",
+            "start": "2023.05",
+            "end": "2023.12",
+            "details": "定义指标口径与自助分析路径，支持业务团队独立完成 80% 日常取数\n设计权限与数据质量监控方案，线上数据事故下降 45%"
+          }
+        ]
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 4.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    },
+    {
+      "type": "skills",
+      "title": "专业技能",
+      "data": {
+        "items": [
+          {
+            "name": "产品设计",
+            "detail": "需求分析、用户研究、Figma、Axure"
+          },
+          {
+            "name": "数据分析",
+            "detail": "SQL、Python、Tableau、A/B 实验"
+          },
+          {
+            "name": "协作沟通",
+            "detail": "跨团队项目推进、英文工作沟通"
+          }
+        ]
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 4.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    },
+    {
+      "type": "awards",
+      "title": "获奖荣誉",
+      "data": {
+        "items": [
+          {
+            "title": "年度优秀员工",
+            "issuer": "云舟科技",
+            "date": "2023.12",
+            "detail": "从 600+ 名员工中评选，年度绩效前 5%"
+          }
+        ]
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 4.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    },
+    {
+      "type": "self_eval",
+      "title": "自我评价",
+      "data": {
+        "content": "五年数据产品经验，擅长把模糊的业务问题拆解成可验证的产品方案。习惯用数据复盘决策，也愿意深入一线理解用户。"
+      },
+      "style": {
+        "font": "",
+        "title_size": 13.0,
+        "body_size": 10.5,
+        "align": "left",
+        "line_spacing": 1.35,
+        "gap": 2.0,
+        "decoration": "rule",
+        "title_bold": true,
+        "show_heading": true,
+        "visible": true
+      }
+    }
+  ]
+}
